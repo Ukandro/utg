@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US"><head><!-- Created by Artisteer v4.1.0.59861 -->
+    <meta charset="utf-8">
+    <title>Find The Product you want</title>
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+
+    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="style.css" media="screen">
+    <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="style.responsive.css" media="all">
+
+
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <script src="script.responsive.js"></script>
+
+
+<script>jQuery(function($) {
+    'use strict';
+    if ($.fn.slider) {
+        $(".art-slidecontainershutterstock_17235442").each(function () {
+            var slideContainer = $(this), tmp;
+            var inner = $(".art-slider-inner", slideContainer);
+            var helper = null;
+
+            if ($.support.transition) {
+                helper = new BackgroundHelper();
+                helper.init("fade", "next", $(".art-slide-item", inner).first().css($.support.transition.prefix + "transition-duration"));
+                inner.children().each(function () {
+                    helper.processSlide($(this));
+                });
+
+            }
+
+
+            inner.children().eq(0).addClass("active");
+            slideContainer.slider({
+                pause: 2600,
+                speed: 600,
+                repeat: true,
+                animation: "fade",
+                direction: "next",
+                navigator: slideContainer.siblings(".art-slidenavigatorshutterstock_17235442"),
+                helper: helper                
+            });
+        });
+    }
+});
+</script><style>.art-content .art-postcontent-0 .layout-item-0 { padding-right: 10px;padding-left: 10px;  }
+.ie7 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+.ie6 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+
+.art-slidecontainershutterstock_17235442 {
+    position: relative;
+        width: 300px;
+    height: 267px;
+        }
+
+.art-slidecontainershutterstock_17235442 .art-slide-item
+{
+
+}
+
+
+
+.art-slidecontainershutterstock_17235442 .art-slide-item {
+    -webkit-transition: 600ms ease-in-out opacity;
+    -moz-transition: 600ms ease-in-out opacity;
+    -ms-transition: 600ms ease-in-out opacity;
+    -o-transition: 600ms ease-in-out opacity;
+    transition: 600ms ease-in-out opacity;
+    position: absolute;
+    display: none;
+	left: 0;
+	top: 0;
+	opacity: 0;
+    width:  100%;
+    height: 100%;
+}
+
+.art-slidecontainershutterstock_17235442 .active, .art-slidecontainershutterstock_17235442 .next, .art-slidecontainershutterstock_17235442 .prev {
+    display: block;
+}
+
+.art-slidecontainershutterstock_17235442 .active {
+    opacity: 1;
+}
+
+.art-slidecontainershutterstock_17235442 .next, .art-slidecontainershutterstock_17235442 .prev {
+    width: 100%;
+}
+
+.art-slidecontainershutterstock_17235442 .next.forward, .art-slidecontainershutterstock_17235442 .prev.back {
+    opacity: 1;
+}
+
+.art-slidecontainershutterstock_17235442 .active.forward {
+    opacity: 0;
+}
+
+.art-slidecontainershutterstock_17235442 .active.back {
+    opacity: 0;
+}
+
+
+.art-slideshutterstock_172354420 {
+    background-image:  url('images/slideshutterstock_172354420.png');
+        background-size:  100%;
+        background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.art-slideshutterstock_172354421 {
+    background-image:  url('images/slideshutterstock_172354421.png');
+        background-size:  100%;
+        background-position:  0 0;
+    background-repeat: no-repeat;
+}
+
+
+.art-slidenavigatorshutterstock_17235442 {
+  display: inline-block;
+  position: absolute;
+  direction: ltr !important;
+  top: 243px;
+  left: 85.33%;
+  z-index: 101;
+  line-height: 0 !important;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+    white-space: nowrap;
+    }
+.art-slidenavigatorshutterstock_17235442
+{
+background: #9C9C9C;background: linear-gradient(top, rgba(194, 194, 194, 0.6) 0, rgba(128, 128, 128, 0.6) 84%, rgba(115, 115, 115, 0.6) 100%) no-repeat;background: -webkit-linear-gradient(top, rgba(194, 194, 194, 0.6) 0, rgba(128, 128, 128, 0.6) 84%, rgba(115, 115, 115, 0.6) 100%) no-repeat;background: -moz-linear-gradient(top, rgba(194, 194, 194, 0.6) 0, rgba(128, 128, 128, 0.6) 84%, rgba(115, 115, 115, 0.6) 100%) no-repeat;background: -o-linear-gradient(top, rgba(194, 194, 194, 0.6) 0, rgba(128, 128, 128, 0.6) 84%, rgba(115, 115, 115, 0.6) 100%) no-repeat;background: -ms-linear-gradient(top, rgba(194, 194, 194, 0.6) 0, rgba(128, 128, 128, 0.6) 84%, rgba(115, 115, 115, 0.6) 100%) no-repeat;background: linear-gradient(top, rgba(194, 194, 194, 0.6) 0, rgba(128, 128, 128, 0.6) 84%, rgba(115, 115, 115, 0.6) 100%) no-repeat;-svg-background: linear-gradient(top, rgba(194, 194, 194, 0.6) 0, rgba(128, 128, 128, 0.6) 84%, rgba(115, 115, 115, 0.6) 100%) no-repeat;
+-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;
+
+
+padding:7px;
+
+
+
+
+
+}
+.art-slidenavigatorshutterstock_17235442 > a
+{
+background: #575757;background: #575757;background: #575757;background: #575757;background: #575757;background: #575757;background: #575757;-svg-background: #575757;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+.art-slidenavigatorshutterstock_17235442 > a.active
+{
+background: #FDDB7C;background: #FDDB7C;background: #FDDB7C;background: #FDDB7C;background: #FDDB7C;background: #FDDB7C;background: #FDDB7C;-svg-background: #FDDB7C;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+.art-slidenavigatorshutterstock_17235442 > a:hover
+{
+background: #AB7E03;background: #AB7E03;background: #AB7E03;background: #AB7E03;background: #AB7E03;background: #AB7E03;background: #AB7E03;-svg-background: #AB7E03;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+
+</style></head>
+<body>
+<div id="art-main">
+    <div class="art-sheet clearfix">
+<header class="art-header">
+<div class="art-slider art-slidecontainerheader" data-width="1000" data-height="200">
+    <div class="art-slider-inner">
+<div class="art-slide-item art-slideheader0">
+
+</div>
+<div class="art-slide-item art-slideheader1">
+
+</div>
+<div class="art-slide-item art-slideheader2">
+
+</div>
+
+    </div>
+</div>
+<div class="art-slidenavigator art-slidenavigatorheader" data-left="93.6">
+<a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a>
+</div>
+
+
+
+    <div class="art-shapes">
+
+            </div>
+<h1 class="art-headline" data-left="70.39%">
+    <a href="#">UNITED TOBACCO GROUP (UTG)</a>
+</h1>
+
+
+
+
+                
+                    
+</header>
+<nav class="art-nav">
+    <ul class="art-hmenu"><li><a href="main.html" class="">Main</a></li><li><a href="products.html" class="active">Products</a></li><li><a href="contact-us.html">Contact Us</a></li><li><a href="about-us.html">About Us</a></li><li><a href="car-reviews.html">Articles</a></li></ul> 
+    </nav>
+<div class="art-layout-wrapper">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-content"><article class="art-post art-article">
+                                <h2 class="art-postheader">Find The Product you want</h2>
+                                                
+                <div class="art-postcontent art-postcontent-0 clearfix"><div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 42%" >
+<div id="shutterstock_17235442" style="position: relative; display: inline-block; z-index: 0; margin: 0px;  border-width: 0px;  " class="art-collage">
+<div class="art-slider art-slidecontainershutterstock_17235442" data-width="300" data-height="267">
+    <div class="art-slider-inner">
+<div class="art-slide-item art-slideshutterstock_172354420">
+
+</div>
+<div class="art-slide-item art-slideshutterstock_172354421">
+
+</div>
+
+    </div>
+</div>
+<div class="art-slidenavigator art-slidenavigatorshutterstock_17235442" data-left="85.33">
+<a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a>
+</div>
+
+
+
+    </div>
+
+    </div><div class="art-layout-cell layout-item-0" style="width: 58%" >
+        <p><span style="font-size: 16px;">We currently have 4 brands available for sale. For special specifications ot tailor made options, please contact our marketing representative .</span></p><p><a href="mailto:utgaccounts@fastmail.fm" title="Marketing representative" style="font-size: 16px; text-decoration: underline; ">utgaccounts@fastmail.fm</a><span style="font-size: 16px;"><br></span></p><p><br></p><p>&nbsp;<span style="font-size: 16px;">Each of our products is subject to International Health restrictions and we take good care in coming up with the &nbsp;appropriate proportions required for environmental awareness</span></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 33%" >
+        <h3><span style="color: #48DE3B;">YES</span></h3>
+         
+        <p>Made from &nbsp;the finnest grade of tabacco leaves</p><p><img width="221" height="301" alt="" class="art-lightbox" src="images/YES.jpg"><br></p>
+    </div><div class="art-layout-cell layout-item-0" style="width: 34%" >
+        <h3><span style="color: #F19A27;">FORUM</span></h3>
+         
+        <p>With added unique properties</p><p><img width="226" height="308" alt="" class="art-lightbox" src="images/FORUM.jpg"><br></p>
+    </div><div class="art-layout-cell layout-item-0" style="width: 33%" >
+        <h3><span style="color: #6C70EA;">LEGEND</span></h3>
+         
+        <p>Made from recommended elements, less tobacco</p><p><img width="224" height="300" alt="" class="art-lightbox" src="images/LEGEND.jpg"><br></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 33%" >
+        <h3><span style="color: #F9F906;">SUPERMATCH</span></h3>
+         
+        <p>This is our unique superior brand</p><p><img width="210" height="294" alt="" class="art-lightbox" src="images/SUPERMATCH.jpg"><br></p>
+    </div><div class="art-layout-cell layout-item-0" style="width: 34%" >
+        <h3>Many more.........</h3>
+         
+        <p>We have several other products pending, they will be updated on the catalog as soon as we get approval.</p><p><br></p><p><img width="300" height="203" alt="" class="art-lightbox" src="images/shutterstock_17150008.jpg"><br></p>
+    </div><div class="art-layout-cell layout-item-0" style="width: 33%" >
+        <h3>Reasonable price range</h3>Our prices &nbsp;are reasonably cheaper and are dependend on the order quantity as well as trading conditions&nbsp;<br><br>
+    </div>
+    </div>
+</div>
+</div>
+
+
+</article></div>
+                    </div>
+                </div>
+            </div><footer class="art-footer">
+<p>United Tobacco Group,Copyright © 2019, . All Rights Reserved.</p>
+</footer>
+
+    </div>
+    <p class="art-page-footer">
+        <span id="art-footnote-links"><a href="http://www.artisteer.com/" target="_blank">Web Template</a> created with Artisteer.</span>
+    </p>
+</div>
+
+
+</body></html>
